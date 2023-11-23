@@ -38,6 +38,9 @@ const Register = () => {
       >
         Register
       </button>
+      <div className='ml-2'>
+      <a href='/login' className="text-blue-500 cursor-pointer ">Login</a>
+      </div>
     </div>
   );
 };
