@@ -2,6 +2,7 @@
 import React, {  useEffect } from 'react';
 import Register from './components/Register';
 import Login from './components/Login';
+import Logout from './components/Logout';
 import Dashboard from './components/dashboard';
 import { auth } from './firebase';
 import { Route, Routes, useNavigate } from 'react-router-dom';
@@ -30,6 +31,7 @@ const Home = () => {
       <Route path='/login' element={<Login />} />
       <Route path='/dashboard' element={<Dashboard />} />
       <Route path='/register' element={<Register />} />
+      <Route path='/logout' element={<Logout />} />
     </Routes>
   );
 };
