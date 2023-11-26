@@ -13,15 +13,12 @@ const Logout = () => {
   };
 
   return (
-    <div className="max-w-sm mx-auto mt-8 p-4 bg-white shadow-md rounded-md">
-      <h2 className="text-2xl font-semibold mb-4">Logout</h2>
       <button
         className="bg-red-500 text-white py-2 px-4 rounded-md hover:bg-red-600 focus:outline-none"
         onClick={handleLogout}
       >
         Logout
       </button>
-    </div>
   );
 };
 
